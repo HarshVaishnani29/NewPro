@@ -21,7 +21,8 @@ function App() {
       <h1>Hello World</h1>
       <h1>I Am Harsh Vaishnani</h1>
       <p>I Am Front End Developer</p>
-      <img src="images/" alt=""/>
+
+      <h1>Welocme Back To DevCodes2</h1>
     </div>
   );
 }
