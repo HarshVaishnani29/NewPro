@@ -2,61 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  // let myTable = document.querySelector('#table')
 
-  // let medical = [
-  //   { id: 101, name: 'Abacavir', quantity: 25, price: 150, expiry: 2022, status: true },
-
-  //   { id: 102, name: 'Eltrombopag', quantity: 90, price: 550, expiry: 2021, status: true },
-
-  //   { id: 103, name: 'Meloxicam', quantity: 85, price: 450, expiry: 2025, status: false },
-
-  //   { id: 104, name: 'Allopurinol', quantity: 50, price: 600, expiry: 2023, status: true },
-
-  //   { id: 105, name: 'Phenytoin', quantity: 63, price: 250, expiry: 2021, status: false }
-  // ];
-
-  // let headers = ['id', 'name', 'quantity', 'price', 'expiry', 'status'];
-
-
-  // let table = document.createElement('table');
-  // let hearderRow = document.createElement('tr');
-
-  // headers.forEach(headerText => {
-  //   let headerr = document.createElement('th');
-  //   let textnode = document.createTextNode(headerText);
-  //   headerr.appendChild(textnode);
-  //   hearderRow.appendChild(headerr);
-  // });
-  // table.appendChild(hearderRow);
-
-  // medical.forEach(data => {
-  //   let row = document.createElement('tr')
-
-  //   Object.values(data).forEach(text => {
-  //     let cell = document.createElement ('th');
-  //     let textnode = document.createTextNode(text);
-  //     cell.appendChild(textnode);
-  //     row.appendChild(cell)
-  //   });
-
-  //   table.appendChild(row);
-
-  // });
-  //   myTable.appendChild(table);
 
   <h1>Medical Data</h1>
   
   var medical=[
-        { id: 101, name: 'Abacavir', quantity: 25, price: 150, expiry: 2022, status: true },
+        { id: 101, name: 'Harsh', quantity: 25, price: 150, expiry: 2022, status: true },
     
-        { id: 102, name: 'Eltrombopag', quantity: 90, price: 550, expiry: 2021, status: true },
+        { id: 102, name: 'Bhavya', quantity: 90, price: 550, expiry: 2021, status: true },
     
-        { id: 103, name: 'Meloxicam', quantity: 85, price: 450, expiry: 2025, status: false },
+        { id: 103, name: 'Bharat', quantity: 85, price: 450, expiry: 2025, status: false },
     
-        { id: 104, name: 'Allopurinol', quantity: 50, price: 600, expiry: 2023, status: true },
+        { id: 104, name: 'Paresh', quantity: 50, price: 600, expiry: 2023, status: true },
     
-        { id: 105, name: 'Phenytoin', quantity: 63, price: 250, expiry: 2021, status: false }
+        { id: 105, name: 'Krish', quantity: 63, price: 250, expiry: 2021, status: false }
       ];
 
       var html="<table border=1|1>"
