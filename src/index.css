@@ -14,7 +14,8 @@ code {
 
 #table{
   display: block;
-  margin: 200px 500px;
+  margin: 200px 404px;
+  font-size: 30px;
 }
 th , td{
   border: 1px solid #000;
