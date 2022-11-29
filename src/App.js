@@ -21,12 +21,13 @@ function App() {
       var html="<table border=1|1>"
 
       setTimeout(() =>{
+        
         html+='<thead>'
         html+='<tr>';
         html+='<td>' +'Id'+'</td>';
         html+='<td>' +'Name'+'</td>';
         html+='<td>' +'Quantity'+'</td>';
-        html+='<td>' +'Price'+'</td>';
+        html+='<td>' +'Price'+'</td>';  
         html+='<td>' +'Expiry'+'</td>';
         html+='<td>' +'Status'+'</td>';
         html+='</tr>';
