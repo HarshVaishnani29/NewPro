@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -28,11 +32,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards{
+  width: 1140px;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 10%;
+  background-color: seagreen;
+}
+h6{
+  font-size: 36px;
+  color: red;
+}
+h4{
+  font-size: 20px;
+  color: orchid;
 }
