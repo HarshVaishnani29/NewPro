@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './components/App';
+import Custom from './components/Custom';
+// import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const list = ["Home","Pages","Contact Us","Services",];
 root.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+  <>
+  {/* <Header logo="images/logo.png"  /> */}
+  {/* <App/> */}
+  <Custom logo="images/logo.png" list = {lists}/>
+  </>
 );
