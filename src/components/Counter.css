@@ -14,15 +14,19 @@
 .main-nav li img{
     width: 100px;
 }
-.main-nav .pro1 img,.pro2 img{
+.pro2 img{
     width: 100px;
+    padding-left: 28%;
 }
 p{
     padding-left: 27%;
     font-size: 40px;
 }
 h1,h2,a{
-    padding-left: 16%;
+    padding-left: 35%;
+}
+h3{
+    padding-left:15%;
 }
 button{
     margin: 10px;
