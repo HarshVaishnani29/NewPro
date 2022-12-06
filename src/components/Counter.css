@@ -1,0 +1,39 @@
+.container{
+    width: 1140px;
+    background-color: lightsalmon;
+    height: 100%;
+    padding: 100px;
+}
+.main-nav {
+    width: 35%;
+    margin: 0 34%;
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav li img{
+    width: 100px;
+}
+.main-nav .pro1 img,.pro2 img{
+    width: 100px;
+}
+p{
+    padding-left: 27%;
+    font-size: 40px;
+}
+h1,h2,a{
+    padding-left: 16%;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+    border-color: wheat;
+    color: white;
+    width: 40%;
+    background-color: yellow;
+    border: none;
+    font-size: 25px;
+}
+.addremovebtn{
+    text-align: center;
+}
