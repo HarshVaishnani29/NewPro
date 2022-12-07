@@ -2,7 +2,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -30,25 +30,21 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 .cards{
   width: 1140px;
   background-color: aquamarine;
   margin: 0 auto;
-}
-.card{
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
+}
+.card-item{
   padding: 20px;
   border-radius: 10%;
-  background-color: seagreen;
-}
-h6{
-  font-size: 36px;
-  color: red;
-}
-h4{
-  font-size: 20px;
-  color: orchid;
+  background-color: rgb(179, 255, 0);
+  margin: 10px;
+  margin: 0 auto;
 }

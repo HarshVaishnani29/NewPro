@@ -14,7 +14,7 @@ function Header(props) {
                 </a></li>
               {/* <li><a href="#">Home</a></li> */}
               {
-                props.list.map((h)=>{
+                props.lists.map((h)=>{
                     return(
                         <li><a href="#">{h}</a>
                         </li>    
@@ -22,6 +22,7 @@ function Header(props) {
                 })
               }
             </ul>
+            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
           </nav>
         </div>
             </div>

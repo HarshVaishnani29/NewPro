@@ -46,25 +46,10 @@ function App() {
   //   document.getElementById("table").innerHTML = html
 
   // }, 500);
-  return (
-    <div className='cards'>
-      <div className='card'>
-        {medical.map((medical) => (
-          <>
-            <h6>
-              {medical.id}
-            </h6>
-            <h4>
-              {medical.name}
-            </h4>
-            <h5>
-              {medical.quantity}
-            </h5>
-          </>
-        ))
-        }
-      </div>
-    </div>
-  )
+ 
+ 
+ 
+    
+
 }
 export default App;
