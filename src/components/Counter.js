@@ -12,8 +12,8 @@ class Counter extends React.Component {
     increment() {
         this.setState(() => {
             return {
-            count: this.state.count + 1
-        }
+                count: this.state.count + 1
+            }
 
         })
     }
@@ -24,12 +24,14 @@ class Counter extends React.Component {
             })
         }
     }
+
+
     delete() {
         this.setState({
-          count: 0
+            count: 0
         })
-      }
-    
+    }
+
     render() {
         return (
             <>
@@ -58,14 +60,14 @@ class Counter extends React.Component {
                                 {this.state.count}
                             </p>
                             <div className="addremovebtn">
-                                <button onClick={()=>{this.increment()}}>
-                                <i class="fa-solid fa-plus"></i>
+                                <button onClick={() => { this.increment() }}>
+                                    <i class="fa-solid fa-plus"></i>
                                 </button>
-                                <button onClick={()=>{this.decrement()}}>
-                                <i class="fa-solid fa-minus"></i>
+                                <button onClick={() => { this.decrement() }}>
+                                    <i class="fa-solid fa-minus"></i>
                                 </button>
-                                <button className="Delete" onClick={()=>{this.delete()}}>
-                                <i class="fa-solid fa-trash"></i>
+                                <button className="Delete" onClick={() => { this.delete() }}>
+                                    <i class="fa-solid fa-trash"></i>
                                 </button>
                             </div>
                         </div>
