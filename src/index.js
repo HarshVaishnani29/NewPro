@@ -9,12 +9,12 @@ import Custom from './components/Custom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const list = ["Home","Pages","Contact Us","Services",];
-const menu = ["Projects","About-Us","Address","Gallery",];
+const menus = ["Projects","About-Us","Address","Gallery",];
 root.render(
   <>
   {/* <App/> */}
   {/* <Header logo="images/logo.png"  menu ={menu}/> */}
-  <Custom logo="images/logo.png" list = {lists}/>
+  <Custom logo="images/logo.png" menu = {menus}/>
   {/* <Counter/> */}
   {/* <Themepicker/> */}
 

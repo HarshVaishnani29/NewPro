@@ -14,7 +14,7 @@ function Header(props) {
                 </a></li>
               {/* <li><a href="#">Home</a></li> */}
               {
-                props.list.map((h)=>{
+                props.menus.map((h)=>{
                     return(
                         <li><a href="#">{h}</a>
                         </li>    
