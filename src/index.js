@@ -9,7 +9,7 @@ import Custom from './components/Custom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const list = ["Home","Pages","Contact Us","Services",];
-// const menu = ["Projects","About-Us","Address","Gallery",];
+const menu = ["Projects","About-Us","Address","Gallery",];
 root.render(
   <>
   {/* <App/> */}
