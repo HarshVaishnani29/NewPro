@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Custom from './components/Custom';
+import Custom from './components/Custom';
 // import Header from './components/Header';
 // import App from './components/App';
 // import Counter from "../src/components/Counter";
-import Themepicker from '../src/components/ThemePicker';
+// import Themepicker from '../src/components/ThemePicker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const list = ["Home","Pages","Contact Us","Services",];
@@ -14,9 +14,9 @@ root.render(
   <>
   {/* <App/> */}
   {/* <Header logo="images/logo.png"  menu ={menu}/> */}
-  {/* <Custom logo="images/logo.png" list = {lists}/> */}
+  <Custom logo="images/logo.png" list = {lists}/>
   {/* <Counter/> */}
-  <Themepicker/>
-  
+  {/* <Themepicker/> */}
+
   </>
 );
