@@ -1,0 +1,19 @@
+.packet{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.submit {
+    background-color: yellow;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+    margin-left: 2%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+.submit:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
